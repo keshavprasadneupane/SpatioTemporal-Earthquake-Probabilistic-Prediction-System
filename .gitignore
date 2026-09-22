@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebooks & checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual Environments & Package Managers
+.venv/
+venv/
+ENV/
+env/
+.uv/
+.poetry/
+
+# IDEs, Editors & Operating Systems
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Project Data & Artifacts (Ignore raw catalogs, outputs, and caches)
+data/raw/*.csv
+data/raw/*.geojson
+data/raw/*.json
+data/processed/*.parquet
+data/processed/*.csv
+outputs/
+*.html
+*.geojson
+!data/README.md

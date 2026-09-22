@@ -1,0 +1,27 @@
+[project]
+name = "spatiotemporal-earthquake-probabilistic-prediction-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "kope", email = "keshavpsdneupane@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.2",
+    "nbformat>=5.11.1",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "plotly>=7.1.0",
+    "requests>=2.34.2",
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+spatiotemporal-earthquake-probabilistic-prediction-system = "spatiotemporal_earthquake_probabilistic_prediction_system:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
