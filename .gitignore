@@ -75,3 +75,8 @@ outputs/
 *.html
 *.geojson
 !data/README.md
+
+
+# ignore this raw data file as it is too large to be stored in the repo
+# size 500Mb+ , use the archieved .zip on archieve/ folder
+intensities.csv
