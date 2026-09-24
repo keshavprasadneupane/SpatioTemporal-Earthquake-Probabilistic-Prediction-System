@@ -70,10 +70,10 @@ data/raw/*.csv
 data/raw/*.geojson
 data/raw/*.json
 data/processed/*.parquet
-data/processed/*.csv
+**/data/processed/*.csv
 data/clean/*.csv
 data/clean/*.parquet
-outputs/
+outputs/**
 *.html
 *.geojson
 !data/README.md
