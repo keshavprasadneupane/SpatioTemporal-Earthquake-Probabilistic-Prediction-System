@@ -86,4 +86,4 @@ intensities.csv
 
 # elevation finder DEM files, ignore the entire folder as it is too large to be stored in the repo
 # size 2340MB+ , use the archieved .zip on archieve/LargeFile folder
-mi30_grd/
+gmted2010/
