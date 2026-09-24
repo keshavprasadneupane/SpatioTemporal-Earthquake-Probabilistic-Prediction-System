@@ -71,6 +71,7 @@ data/raw/*.geojson
 data/raw/*.json
 data/processed/*.parquet
 data/processed/*.csv
+data/clean/*
 outputs/
 *.html
 *.geojson
@@ -78,5 +79,10 @@ outputs/
 
 
 # ignore this raw data file as it is too large to be stored in the repo
-# size 500Mb+ , use the archieved .zip on archieve/ folder
+# size 500Mb+ , use the archieved .zip on archieve/LargeFile folder 
 intensities.csv
+
+
+# elevation finder DEM files, ignore the entire folder as it is too large to be stored in the repo
+# size 2340MB+ , use the archieved .zip on archieve/LargeFile folder
+mi30_grd/
