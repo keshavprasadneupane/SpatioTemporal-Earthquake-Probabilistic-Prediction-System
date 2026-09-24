@@ -71,7 +71,8 @@ data/raw/*.geojson
 data/raw/*.json
 data/processed/*.parquet
 data/processed/*.csv
-data/clean/*
+data/clean/*.csv
+data/clean/*.parquet
 outputs/
 *.html
 *.geojson
