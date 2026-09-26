@@ -66,7 +66,7 @@ env/
 Thumbs.db
 
 # Project Data & Artifacts (Ignore raw catalogs, outputs, and caches)
-data/raw/*.csv
+**/data/raw/*.csv
 data/raw/*.geojson
 data/raw/*.json
 data/processed/*.parquet
@@ -87,3 +87,4 @@ intensities.csv
 # elevation finder DEM files, ignore the entire folder as it is too large to be stored in the repo
 # size 2340MB+ , use the archieved .zip on archieve/LargeFile folder
 gmted2010/
+global_vs30/
