@@ -21,6 +21,8 @@ dependencies = [
     "scikit-learn>=1.9.1",
     "scipy>=1.18.1",
     "seaborn>=0.13.2",
+    "skorch>=1.4.0",
+    "torch>=2.14.1",
     "xgboost>=3.4.1",
 ]
 
