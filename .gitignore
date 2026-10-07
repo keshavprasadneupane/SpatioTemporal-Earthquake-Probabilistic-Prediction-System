@@ -78,6 +78,9 @@ outputs/**
 *.geojson
 !data/README.md
 
+# ignore the internal documentation folder since they are not to be stored in the repo, 
+_docs/*
+
 
 # ignore this raw data file as it is too large to be stored in the repo
 # size 500Mb+ , use the archieved .zip on archieve/LargeFile folder 
@@ -88,3 +91,6 @@ intensities.csv
 # size 2340MB+ , use the archieved .zip on archieve/LargeFile folder
 gmted2010/
 global_vs30/
+
+
+
